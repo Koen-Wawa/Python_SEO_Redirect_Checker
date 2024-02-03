@@ -107,7 +107,7 @@ def final_check(complete_rows):
     return complete_list
 
 
-def write_csv(placeholder_list):
+def write_csv(all_data_list):
 
     header = ['Original URL', 'Status Code', 'Intended Redirect Endpoint', 'Actual Endpoint',
               'Endpoint Status Code', 'Correct Redirect?', 'Everything Correct?', 'Redirect Chain?']
@@ -115,7 +115,7 @@ def write_csv(placeholder_list):
     with open(f'Redirect Check.csv', 'w', encoding='utf8', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(header)
-        for line in placeholder_list:
+        for line in all_data_list:
             writer.writerow(line)
 
 
