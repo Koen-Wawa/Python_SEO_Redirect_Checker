@@ -20,7 +20,7 @@ How to use the SEO Redirect Checker
 - Paste the lines of code into the main.py file.
 - Download the CSV file called "URL list" that you can find on this github page, and move it from the "Downloads" folder on your pc into
   the folder of your new python project, so that it's next to the 'main.py' file.
-  Currently, you can't rename the URL List file to something else, the program would no longer recognize it if you do.
+  Currently, you can't rename the "URL list" CSV file to something else, the program would no longer recognize it if you do.
 - Now a slightly tricky part. Within PyCharm, use ALT + F12 to open the terminal window, and type in the following command:
 
 pip install requests 
