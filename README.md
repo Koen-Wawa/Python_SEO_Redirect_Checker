@@ -1,34 +1,31 @@
 How to use the SEO Redirect Checker
-.
-.
-.
-.
+
 *** SETUP FOR PEAK ACERS ***
 
 --> Ask at the IT desk to have the following two programs installed: 
 
-- python	(programming language)
-- pycharm 	(interpreter of the python language)
+- Python	(programming language)
+- Pycharm 	(interpreter of the python language)
 
---> Next, run pycharm
+--> Next, run Pycharm
 
 
 
-*** INSIDE PYCHARM ***
+*** INSIDE THE PYCHARM PROGRAM ***
 
-- create a new project, so that you will have a 'main.py' file.
-- copy the lines of code in the main_py_code file on the github page, there should be 128 lines of code. 
-- paste the lines of code into the main.py file.
-- download the csv file called "URL list" and move it from the "Downloads" folder into
-  the folder of your new python project, where it's next to 'main.py' file. You can't rename the URL List file to something else, 
-  the program would no longer recognize it if you do, in it's current version.
+--> Follow the following steps before you run the program:
 
-now a slightly tricky part. In PyCharm, with ALT + F12 you open the terminal window, and type in the following command:
+- Create a new project, so that you will have a 'main.py' file.
+- Copy the lines of code in the main_py_code file that you can find on this github page, there should be 128 lines of code. 
+- Paste the lines of code into the main.py file.
+- Download the CSV file called "URL list" that you can find on this github page, and move it from the "Downloads" folder on your pc into
+  the folder of your new python project, so that it's next to 'main.py' file.
+  Currently, you can't rename the URL List file to something else, the program would no longer recognize it if you do.
+- Now a slightly tricky part. Within PyCharm, use ALT + F12 to open the terminal window, and type in the following command:
 
 pip install requests 
 
-hit enter and the requests module will be added to your current virtual environment. This will take a couple of seconds.
-After that you can close the terminal window again. tricky part completed.
+- Hit enter and the requests module will be added to your current virtual environment. This will take a couple of seconds. After that you can close the terminal window again. 
 
 - now open the "URL list" csv file in Excel. You see two columns, underneath them you can add the URLs that you want to check. 
   It's best to leave the first row with "Original Page" and "Intended Page" as it is, start below it on row 2. Under "Original Page", 
