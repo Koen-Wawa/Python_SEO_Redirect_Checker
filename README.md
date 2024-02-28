@@ -31,17 +31,16 @@ pip install requests
   It's best to leave the first row with "Original Page" and "Intended Page" as it is, start below it on row 2.
 - Under "Original Page", add the URL that you want to check, and under "Intended Page" add the destination URL, where your redirect should end up. 
   
-- You can add as many URLs as you like, but it's better not to overdo it. If you have a list of 200 URLs you want to check 
+- You can add as many URLs as you like, but it's best not to overdo it. If you have a list of 200 URLs you want to check 
   from one domain, those URLs will be visited by the script very fast. And if you (for some reason) re-run your program 
-  several times in a row, you are basically giving the domain too many HTTP requests to handle, which might make it
-  appear slower to others who are trying to visit it. So either keep your list of urls sensibly small, or if its a large list, 
+  several times in a row, you are basically giving the domain too many HTTP requests to handle, which might create availability issues for this domain in general. So either keep your list of URLs sensibly small, or if its a large list, 
   don't run the python script several times in a row. 
 
 - Please double check that the "Intended Page" input you provide in your CSV file is consistent with the actual URL you want to check,
   when it comes to trailing slashes (/) or having no trailing slashes at the end of a url. Otherwise the script might understand 
   an additional redirect took place.. (e.g. from '/' to ' ', or from ' ' to '/').
   
-- After you have added all the urls to the CSV, save it and close it. 
+- After you have added all the URLs to the CSV, save the changes to the file, and close it. 
 
 
 *** HOW TO RUN THE SCRIPT ***
