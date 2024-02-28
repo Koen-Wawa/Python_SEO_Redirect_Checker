@@ -1,6 +1,11 @@
 How to use the SEO Redirect Checker
 
-
+/n
+/n
+/n
+\n
+\n
+\n
 *** SETUP FOR PEAK ACERS***
 
 ask at the IT desk to have the following two programs installed: 
