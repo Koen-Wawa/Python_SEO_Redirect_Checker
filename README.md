@@ -5,9 +5,9 @@ How to use the SEO Redirect Checker
 --> Ask at the IT desk to have the following two programs installed: 
 
 - Python	(programming language)
-- Pycharm 	(interpreter of the python language)
+- PyCharm 	(interpreter of the python language)
 
---> Next, run Pycharm
+--> Next, run PyCharm
 
 
 
@@ -16,9 +16,9 @@ How to use the SEO Redirect Checker
 --> Follow the following steps before you run the Python script:
 
 - Create a new project, so that you will have a 'main.py' file.
-- Copy the lines of code in the main_py_code file that you can find on this github page, there should be 128 lines of code. 
+- Copy the lines of code in the main_py_code file that you can find on this GitHub page, there should be 128 lines of code. 
 - Paste the lines of code into the main.py file.
-- Download the CSV file called "URL list" that you can find on this github page, and move it from the "Downloads" folder on your pc into
+- Download the CSV file called "URL list" that you can find on this GitHub page, and move it from the "Downloads" folder on your pc into
   the folder of your new python project, so that it's next to the 'main.py' file.
   Currently, you can't rename the "URL list" CSV file to something else, the program would no longer recognize it if you do.
 - Now a slightly tricky part. Within PyCharm, use ALT + F12 to open the terminal window, and type in the following command:
