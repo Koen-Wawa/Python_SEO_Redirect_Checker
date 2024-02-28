@@ -1,14 +1,11 @@
 How to use the SEO Redirect Checker
+.
+.
+.
+.
+*** SETUP FOR PEAK ACERS ***
 
-/n
-/n
-/n
-\n
-\n
-\n
-*** SETUP FOR PEAK ACERS***
-
-ask at the IT desk to have the following two programs installed: 
+--> Ask at the IT desk to have the following two programs installed: 
 
 - python	(programming language)
 - pycharm 	(interpreter of the python language)
