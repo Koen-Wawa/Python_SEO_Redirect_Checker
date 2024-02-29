@@ -1,3 +1,5 @@
+************************************
+
 How to use the SEO Redirect Checker
 
 *** SETUP FOR PEAK ACERS ***
@@ -54,3 +56,5 @@ pip install requests
 
 - Please keep in mind that when you run the program again, this file will be overwritten,
   so it's best to rename the newly created CSV file (e.g. "Redirect Check [client]") immediately, this takes care of that problem.
+
+  ************************************
