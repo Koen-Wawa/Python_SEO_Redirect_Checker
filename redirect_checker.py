@@ -15,21 +15,21 @@ def read_csv(csv_file):
 
 def visit_url_and_get_all_info(url_address):
     try:
-        r = requests.get(url_address)
-        history = r.history
-        endpoint_url = r.url
-        endpoint_status_code = r.status_code
+        resp = requests.get(url_address)
+        history = resp.history
+        endpoint_url = resp.url
+        endpoint_status_code = resp.status_code
 
-        if len(r.history) > 1:
+        if len(resp.history) > 1:
             redirect_chain_list = []
             cursor = 0
 
-            for element in r.history:
-                redirect_chain_element = f"{r.history[cursor].url}     ({r.history[cursor].status_code})--->     "
+            for element in resp.history:
+                redirect_chain_element = f"{resp.history[cursor].url}     ({resp.history[cursor].status_code})--->     "
                 redirect_chain_list.append(redirect_chain_element)
                 cursor += 1
 
-            redirect_chain_destination = f"{r.url}     ({r.status_code})"
+            redirect_chain_destination = f"{resp.url}     ({resp.status_code})"
             redirect_chain_list.append(redirect_chain_destination)
 
             redirect_string = ''
@@ -40,13 +40,13 @@ def visit_url_and_get_all_info(url_address):
 
             history_status_code = history[0].status_code
 
-        elif len(r.history) == 1:
+        elif len(resp.history) == 1:
 
             history_status_code = history[0].status_code
             redirect_chain = "-"
 
         else:
-            history_status_code = r.status_code
+            history_status_code = resp.status_code
             redirect_chain = "-"
 
         return history_status_code, endpoint_url, endpoint_status_code, redirect_chain
