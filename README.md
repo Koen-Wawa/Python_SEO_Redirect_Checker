@@ -51,7 +51,7 @@ pip install requests
 
 - It's a simple matter of hitting the green 'play' button in the upper right corner, and the program should execute. 
   
-- In the folder where you also find the 'main.py' and 'URL list.csv' files, a new CSV file called "Redirect Check" has been added that gives you information
+- In the folder where you also find the 'redirect_checker.py' and 'URL list.csv' files, a new CSV file called "Redirect Check" has been added that gives you information
   on the redirect status of your URLs.
 
 - Please keep in mind that when you run the program again, this file will be overwritten,
